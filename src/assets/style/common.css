@@ -1,0 +1,39 @@
+/*------------------ button css ---------------------*/
+/* new-btn-primary 默认按钮  new-btn-default 取消按钮 */
+.content_wrap{
+  background : #f0f5f7
+}
+.new-btn-primary,
+.new-btn-primary:focus{
+  height: 32px;
+  padding: 8px 15px;
+  background-color: #0064a9;
+  border-color: #0064a9;
+}
+.new-btn-primary:hover {
+  background-color: #2584c5;
+  border-color: #2584c5;
+}
+.new-btn-primary:active {
+  background-color: #1677b9;
+  border-color: #1677b9;
+}
+
+.new-btn-cancel {
+  height: 32px;
+  padding: 8px 15px;
+  border: 1px solid #8fbbd4;
+  background: #f1f7fd;
+  color: #0067a9;
+}
+.new-btn-cancel:hover {
+  border: 1px solid #b5d5e7;
+  background: #fcfdff;
+  color: #0067a9;
+}
+.new-btn-cancel:active,
+.new-btn-cancel:focus {
+  border: 1px solid #8fbbd4;
+  background: #f1f7fd;
+  color: #0067a9;
+}
