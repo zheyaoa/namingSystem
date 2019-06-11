@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/pages/login/Login.vue'
 import studentList from '@/pages/studentList/StudentList.vue'
-import namingList from '@/pages/namingList/NamingList.vue'
+import namingList from '@/pages/namingList/namingList.vue'
 Vue.use(Router)
 
 export default new Router({
